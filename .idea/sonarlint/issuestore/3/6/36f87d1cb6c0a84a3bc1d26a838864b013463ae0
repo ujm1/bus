@@ -1,7 +1,0 @@
-
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ö¥½ª8Ã¹ù¬¿1
-X	java:S125"<This block of commented-out lines of code should be removed.(Œààâ8ÕÓ¤§¿1
-\
-java:S1854":Remove this useless assignment to local variable "busGUI".(œÂ´·ûÿÿÿÿ8¡Ù §¿1
-M
-java:S1481"+Remove this unused "busGUI" local variable.(œÂ´·ûÿÿÿÿ8¡Ù §¿1
