@@ -1,8 +1,6 @@
 package busProject;
 
-import java.io.Serializable;
-
-public class Bus implements Serializable {
+public class Bus extends Thread {
 
     private int number; //버스번호
     private int time; //초단위
@@ -26,5 +24,9 @@ public class Bus implements Serializable {
 
     public void setTime(int time) {
         this.time = time;
+    }
+
+    public void run() {
+        BusClient.check(number, time);
     }
 }
