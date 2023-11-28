@@ -28,6 +28,7 @@ public class BusServer extends Thread {
                 String fromClient=br.readLine();
                 System.out.println(fromClient);
                 busGUI.topDisplay(fromClient);
+                //이렇게 그냥 보내는게 아니라 List같은걸로 넣은담에 [0]삭제하고 보내기?
                 Thread.sleep(1);
                 String fromClient2=br.readLine();
                 System.out.println(fromClient2);
