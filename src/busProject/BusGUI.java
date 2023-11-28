@@ -2,7 +2,7 @@ package busProject;
 
 import javax.swing.*;
 import java.awt.*;
-
+//test
 public class BusGUI extends JFrame {
 JPanel jpanel;
 JTextArea listArea; //대기중인 버스. area로 하니 안되다가 field로 바꾸니 정상
